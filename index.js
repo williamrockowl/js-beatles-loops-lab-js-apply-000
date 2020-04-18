@@ -7,7 +7,7 @@ for(let i = 0;i < musicians.length; i++){
 return ans;
 }
 function johnLennonFacts(facts){
-  i = 0;
+  var i = 0;
   const answer = [];
  ` const facts = [
   "He was the last Beatle to learn to drive",
@@ -20,6 +20,6 @@ function johnLennonFacts(facts){
     i++;
  
   }
-return answer
+return answer;
  
 }
