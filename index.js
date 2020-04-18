@@ -6,17 +6,19 @@ for(let i = 0;i < musicians.length; i++){
 }
 return ans;
 }
+
+
 function johnLennonFacts(facts){
-  let i = 0;
+  
   const answer = [];
  ` const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice" ];`
-  
+  let i = 0;
   while(i < facts.lenth){
-    answer.push(`${facts[i]}!!!`);
+   answer.push(`${facts[i]}!!!`);
     i++;
  
   }
