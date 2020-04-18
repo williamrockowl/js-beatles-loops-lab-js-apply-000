@@ -29,7 +29,7 @@ function iLoveTheBeatles(number){
     emptyA.push(`I love the Beatles!`)
     number++;
     
-  } while (n<15)
+  } while (number<15)
   return emptyA;
 
   
