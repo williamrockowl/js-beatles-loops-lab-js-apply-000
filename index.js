@@ -23,3 +23,15 @@ function johnLennonFacts(facts){
 return answer;
  
 }
+function iLoveTheBeatles(number){
+  const emptyA = [];
+  do{
+    emptyA.push(`I love the Beatles!`)
+    number++;
+    
+  } while (n<15)
+  return emptyA;
+
+  
+  
+}
